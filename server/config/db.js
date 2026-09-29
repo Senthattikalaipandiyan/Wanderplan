@@ -10,4 +10,5 @@ const connectDB = async () => {
   }
 };
 
-module.exports = connectDB();
+// Export the function structure itself
+module.exports = connectDB;
